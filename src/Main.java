@@ -5,6 +5,7 @@ public class Main {
 
     public static int getLargestPrime(int number) {
 
+        //input validation
         if (number < 0){
             return -1;
         }
